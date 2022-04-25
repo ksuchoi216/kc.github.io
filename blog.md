@@ -3,6 +3,8 @@ layout: blog
 title: Blog
 slug: /blog
 ---
+# UNDER CONSTRUCTION, 준비중 입니다!!!
 
-This is an example of a "Blog" page, displaying a list of posts.
-<br />
+석사에서 배운 것들 혹은 새롭게 관심있는 분야 등 제가 공부하거나 습득한 모든 것을 공유하려 합니다. 앞으로 꾸준히 관리할테니 지켜봐주세요.<br/>
+일단 각 **통계학/수학, 머신러닝(딥러닝 포함), 컴퓨터 공학** 이렇게 3가지 분야에 대해 공유하려 합니다.
+

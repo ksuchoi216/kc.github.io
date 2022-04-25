@@ -11,6 +11,8 @@
         {% for page in site.header.pages %}
           {% if page.slug and page.slug != "" and page.slug != nil %}
             {% assign page_link = page.slug %}
+          {% elsif page.name == "Portfolio" %}
+            {% assign page_link = "https://kyungsuchoi.notion.site/Kyungsu-Choi-KC-bc4fef44964846dc9a94217d555da474" %}
           {% else %}
             {% assign page_link = "/" | append: page.name | downcase %}
           {% endif %}

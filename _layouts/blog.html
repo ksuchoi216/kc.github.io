@@ -13,13 +13,14 @@
 
 
           <p class="blog-post-list">
-            <h3>Mathematics</h3>
+            <h3>수학/통계학</h3>
             {% for post in site.posts %}
 
               {% if post.draft != true %}
                 {% if post.topic == 'math' %}
-                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                  <span class="blog-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
                   <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
+                    [{{ post.subtopic }}]
                     {{ post.title }}
                   </a>
                   <br />
@@ -31,31 +32,14 @@
 
 
           <p class="blog-post-list">
-            <h3>Statstics</h3>
-            {% for post in site.posts %}
-
-              {% if post.draft != true %}
-                {% if post.topic == 'st' %}
-                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                  <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                    {{ post.title }}
-                  </a>
-                  <br />
-                {% endif %}
-              {% endif %}
-
-            {% endfor %}
-          </p>
-
-
-          <p class="blog-post-list">
-            <h3>Machine Learning</h3>
+            <h3>머신러닝</h3>
             {% for post in site.posts %}
 
               {% if post.draft != true %}
                 {% if post.topic == 'ml' %}
-                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                  <span class="blog-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
                   <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
+                    [{{ post.subtopic }}]
                     {{ post.title }}
                   </a>
                   <br />
@@ -66,13 +50,14 @@
           </p>
 
           <p class="blog-post-list">
-            <h3>Computer Science</h3>
+            <h3>컴퓨터 공학</h3>
             {% for post in site.posts %}
 
               {% if post.draft != true %}
                 {% if post.topic == 'cs' %}
-                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                  <span class="blog-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
                   <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
+                    [{{ post.subtopic }}]
                     {{ post.title }}
                   </a>
                   <br />

@@ -1,7 +1,7 @@
 ---
-layout: project
-title: Project
-slug: /project
+layout: portfolio
+title: Portfolio
+slug: /portfolio
 items:
   # - category: Computer Vision
   #   title:

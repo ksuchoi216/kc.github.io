@@ -1,7 +1,8 @@
 ---
 layout: post
-topic: cs #stat/math/ml/cs/
-title:  "Algorithm Sorting"
+topic: cs
+subtopic: 알고리즘
+title:  "정렬 Sorting"
 date:   2022-04-07 14:46:54
 ---
 

@@ -14,7 +14,7 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Project
+    - name: Portfolio
     - name: Blog
 
 footer:
